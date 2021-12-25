@@ -1,0 +1,17 @@
+\documentclass[parskip=half]{scrreprt}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman,english]{babel}
+\usepackage{lmodern}
+\usepackage[juratotoc]{scrjura}
+\usepackage[margin=2cm]{geometry}
+\makeatletter 
+\renewcommand*{\parformat}{% 
+	\global\hangindent 2em 
+	\makebox[2em][l]{(\thepar)\hfill}\hspace{-0,3cm} 
+} 
+\makeatother 
+
+\begin{document} 
+\addchap{Publication of an image as part of this project}
+\end{document}
