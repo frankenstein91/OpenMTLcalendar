@@ -5,6 +5,7 @@
 \usepackage{lmodern}
 \usepackage[juratotoc]{scrjura}
 \usepackage[margin=2cm]{geometry}
+\usepackage{digsig}
 \makeatletter 
 \renewcommand*{\parformat}{% 
 	\global\hangindent 2em 
@@ -38,6 +39,13 @@ With this document I confirm to the OpenMTLcalendar project and possible success
 	
 	\Paragraph{title={People}}
 	Even though there is a gray area in German law for photographing large crowds, I did my best not to photograph anyone recognizable. Furthermore, I confirm that \textbf{no children} are visible on the picture.
+	
+	\Paragraph{title={Signature}}
+	The document offers the possibility of a digital signature. I use this function or another way to express my will and consent.
+	
+	\begin{Form}
+		\digsigfield{5cm}{3cm}{My signature}
+	\end{Form}
 	
 \end{contract}
 \end{document}
