@@ -1,2 +1,6 @@
 
-*.log
+Imagepublicationagreement/*.log
+
+Imagepublicationagreement/agreement.aux
+
+Imagepublicationagreement/agreement.synctex.gz
